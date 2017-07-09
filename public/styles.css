@@ -110,6 +110,15 @@ iframe {
 .contact-info {
   justify-content: flex-end;
 
+
+}
+
+.dev-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
 }
 
 .whenIread{
