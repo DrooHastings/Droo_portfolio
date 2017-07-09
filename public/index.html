@@ -12,10 +12,9 @@
     <script src="controllers/create.controller.js" charset="utf-8"></script>
     <!-- <script src="" charset="utf-8"></script> -->
   </head>
-  <body>
-    <div class="wrapper" ng-app="myApp">
-      <ng-view></ng-view>
-      <div class="ng-view"></div>
+  <body ng-app="myApp">
+
+    <div class="wrapper" >
       <img src="DH1.png" class="logo" alt="Droo Hastings logo">
       <div class="container">
         <div class="overlay">
@@ -24,9 +23,10 @@
           <a ng-href="#!develope">develope.</a>
           <a ng-href="#!connect">connect.</a>
           </div>
-        </div>
+         </div>
       </div>
       <div>
     </div>
+    <ng-view></ng-view>
 </body>
 </html>
